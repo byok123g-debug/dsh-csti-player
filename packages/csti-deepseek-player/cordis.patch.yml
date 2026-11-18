@@ -1,0 +1,3 @@
+- insert:
+    - id: csti-deepseek-player
+      name: '@local/csti-deepseek-player'

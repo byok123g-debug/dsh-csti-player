@@ -1,0 +1,7 @@
+- insert:
+    - id: dsh-frugal
+      name: '@local/dsh-frugal'
+      config:
+        enabled: true
+        replyMaxLines: 12
+        imageBudget: 2

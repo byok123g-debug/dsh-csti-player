@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "省钱模式",
+    "description": "把回复变短、每轮限制截图张数，并把常用坐标表写进系统提示，用几百字换掉每次两千多 token 的截图。",
+    "detail": "docs/DETAIL.md"
+  }
+}

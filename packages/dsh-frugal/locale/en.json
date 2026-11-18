@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Frugal mode",
+    "description": "Keeps replies short, caps screenshots per turn, and embeds a cached coordinate sheet so repeated lookups cost no image tokens.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@local/csti-deepseek-player",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Give DeepSeek eyes and hands inside Card Survival: Tropical Island.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "send.ps1",
+    "drag.ps1",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-plugins.git",
+    "directory": "packages/csti-deepseek-player"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "card-survival",
+    "game-bridge",
+    "automation"
+  ],
+  "author": "the dsh-plugins contributors"
+}
