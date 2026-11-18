@@ -1,11 +1,11 @@
-/**
+﻿/**
  * Removes `private: true` and adds license/repository/keywords to each package
  * so the repo is publishable. Idempotent.
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
-const repo = 'https://github.com/OWNER/dsh-plugins'
+const repo = 'https://github.com/byok123g-debug/dsh-plugins'
 const root = 'packages'
 
 const targets = [
@@ -24,3 +24,4 @@ for (const [dir, keywords] of targets) {
   writeFileSync(p, JSON.stringify(j, null, 2) + '\n')
   console.log('updated', p)
 }
+

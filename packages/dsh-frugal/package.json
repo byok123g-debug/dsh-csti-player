@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-plugins.git",
+    "url": "git+https://github.com/byok123g-debug/dsh-plugins.git",
     "directory": "packages/dsh-frugal"
   },
   "keywords": [
